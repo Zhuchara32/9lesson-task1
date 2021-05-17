@@ -70,6 +70,7 @@
 .buttom:hover {
     background-color: #eaa258;
     color: white;
+    cursor: pointer;
 }
 @font-face {
     font-family: 'Lato', sans-serif;
