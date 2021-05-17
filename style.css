@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease-out;
+}
+.wrapper {
+    background-color: white;
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {    
+    width: 87.5%;
+    height: 78.333%;    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 1px 2px 27px 26px rgba(34, 60, 80, 0.08);
+    -moz-box-shadow: 1px 2px 27px 26px rgba(34, 60, 80, 0.08);
+    box-shadow: 1px 2px 27px 26px rgba(34, 60, 80, 0.08);
+}
+.content {
+    height: 72.34%;
+    max-width: 85%;
+}
+.text {
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    margin: 2% auto;
+}
+.start:before {
+    content: "L";
+    display: block;
+    float: left;
+    margin: 30px auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 110px;
+}
+.heading {
+    margin-bottom: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+}
+.quote::before {
+    content: "\201c";
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.quote {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.buttom {
+    display: inline-block;
+    width: 220px;
+    height: 55px;
+    border-color: #eaa258;
+    font-family: 'Lato', bold;
+    color: #eaa258;
+    font-size: 18px;
+    /* font-style: italic; */
+}
+.buttom:hover {
+    background-color: #eaa258;
+    color: white;
+}
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(./ttf/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url(./ttf/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato', bold;
+    src: url(./ttf/Lato-Bold.ttf);
+}
